@@ -1,0 +1,9 @@
+[core]
+  excludesfile = ~/.gitignore
+	autocrlf = input
+
+[user]
+  name = Aris FM
+  email = aris@cekerholic.com
+[push]
+  default = current
