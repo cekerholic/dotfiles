@@ -33,6 +33,7 @@ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 # Symlink everything
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/git/.gitignore ~/.gitignore
+ln -s ~/.dotfiles/git/.tmux.conf ~/.tmux.conf
 
 # Set tmux as default terminal
 echo '[[ $TERM != "screen" ]] && exec tmux"' >> ~/.zshrc
