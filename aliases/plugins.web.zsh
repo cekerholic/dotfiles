@@ -14,12 +14,12 @@ stack() {
 }
 
 # Translate Indonesian to English
-entrans() {
+tten() {
   x-www-browser 'https://translate.google.com/?source=osdd#id/en/'${1// /%20}
 }
 
 # Translate English to Indonesian
-idtrans() {
+ttid() {
   x-www-browser 'https://translate.google.com/?source=osdd#en/id/'${1// /%20}
 }
 
