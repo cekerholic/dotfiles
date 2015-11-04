@@ -14,6 +14,8 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 rm ~/.zshrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
-chsh -s 'which zsh'
+# Set zsh as default
+chsh -s $(which zsh)
 
+# Restart
 sudo shutdown -r 0
