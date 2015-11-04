@@ -12,7 +12,7 @@ sudo apt-get install -y zsh
 # Install oh-my-zsh
 wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 rm ~/.zshrc
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -sfn ~/.dotfiles/.zshrc ~/.zshrc
 
 # Set zsh as default
 chsh -s $(which zsh)
