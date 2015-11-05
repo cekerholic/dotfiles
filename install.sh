@@ -28,6 +28,13 @@ ln -sfn ~/.dotfiles/st3/preferences ~/.config/sublime-text-3/Packages/User/Prefe
 ln -sfn ~/.dotfiles/st3/packages ~/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings
 curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
 
+# Hack fonts
+wget https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip
+mkdir -p ~/.fonts/
+unzip Hack-v2_018-ttf.zip -d ~/.fonts
+fc-cache -vf ~/.fonts/
+rm Hack-v2_018-ttf.zip
+
 # pip
 sudo apt-get install -y python-pip --force-yes
 
@@ -35,7 +42,6 @@ sudo apt-get install -y python-pip --force-yes
 pip install --user git+git://github.com/powerline/powerline
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
-mkdir -p ~/.fonts/
 mv PowerlineSymbols.otf ~/.fonts/
 fc-cache -vf ~/.fonts/
 mkdir -p ~/.config/fontconfig/conf.d/
