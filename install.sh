@@ -53,5 +53,6 @@ tmux source-file ~/.tmux.conf
 ln -sfn ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -sfn ~/.dotfiles/git/.gitignore ~/.gitignore
 ln -sfn ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -sfn ~/.dotfiles/.editorconfig ~/.editorconfig
 
 sh ~/.dotfiles/program.sh
