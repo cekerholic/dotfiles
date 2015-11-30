@@ -1,29 +1,31 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"AlignTab",
-		"Babel",
-		"EditorConfig",
-		"Emmet",
-		"ES6-Toolkit",
-		"Gist",
-		"Git",
-		"GitGutter",
-		"Gulp",
-		"Handlebars",
-		"Jade",
-		"JS Snippets",
-		"JSX",
-		"MarkdownEditing",
-		"Package Control",
-		"PackageResourceViewer",
-		"ReactJS",
-		"Sass",
-		"SideBarEnhancements",
-		"Theme - Flatland"
-	]
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
+  "installed_packages":
+  [
+    "AlignTab",
+    "Babel",
+    "EditorConfig",
+    "Emmet",
+    "ES6-Toolkit",
+    "Gist",
+    "Git",
+    "GitGutter",
+    "Gulp",
+    "Handlebars",
+    "Jade",
+    "JavaScript Completions",
+    "JavaScriptNext - ES6 Syntax",
+    "JSX",
+    "MarkdownEditing",
+    "Package Control",
+    "PackageResourceViewer",
+    "React ES6 Snippets",
+    "ReactJS",
+    "Sass",
+    "SideBarEnhancements",
+    "Theme - Flatland"
+  ]
 }
